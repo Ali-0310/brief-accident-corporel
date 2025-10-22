@@ -2,6 +2,8 @@
 -- BRONZE : Table unique (staging)
 -- ========================================
 
+DROP TABLE IF EXISTS accidents_bronze.raw_accidents CASCADE;
+
 CREATE TABLE accidents_bronze.raw_accidents (
     -- ================================
     -- IDENTIFIANT TECHNIQUE
@@ -16,7 +18,7 @@ CREATE TABLE accidents_bronze.raw_accidents (
 
     -- ================================
     -- CARACTERISTIQUES ACCIDENT
-    -- ================================    
+    -- ======================   ==========    
     jour TEXT,
     mois TEXT,
     an TEXT,
@@ -93,7 +95,14 @@ CREATE TABLE accidents_bronze.raw_accidents (
     reg_name TEXT,
     com_arm_name TEXT,
     com_code TEXT,
-    
+    code_postal TEXT,
+    insee TEXT,
+    num TEXT,
+    coordonnees TEXT,
+    plan TEXT,
+    nom_com TEXT,
+    secu_utl TEXT,
+
     -- ================================
     -- MÉTADONNÉES D'IMPORT
     -- ================================
