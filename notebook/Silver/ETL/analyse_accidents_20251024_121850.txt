@@ -1,0 +1,108 @@
+ANALYSE COMPLÈTE DES PERFORMANCES - BASE DE DONNÉES ACCIDENTS
+Log enregistré dans : analyse_accidents_20251024_121850.txt
+============================================================
+Test de connexion à la base de données...
+Connexion réussie - 475911 accidents dans la base
+
+----------------------------------------
+CRITÈRE 1 : CONDITIONS À RISQUE ÉLEVÉ
+----------------------------------------
+
+============================================================
+CRITÈRE 1 : CONDITIONS À RISQUE ÉLEVÉ
+============================================================
+Exécution requête...
+Résultats : 20 combinaisons dangereuses
+
+TOP 5 CONDITIONS LES PLUS DANGEREUSES :
+--------------------------------------------------------------------------------
+1. Normale | Nuit sans éclairage | Route Départementale | Autre
+   Accidents: 90 | Taux mortalité: 16.875% | Ratio vs national: 6.27x | Niveau: TRÈS DANGEREUX (>3x)
+
+2. Normale | Nuit sans éclairage | Voie Communale | Autre
+   Accidents: 54 | Taux mortalité: 16.038% | Ratio vs national: 5.96x | Niveau: TRÈS DANGEREUX (>3x)
+
+3. Vent fort - tempête | Nuit sans éclairage | Route Départementale | Normale
+   Accidents: 69 | Taux mortalité: 15.873% | Ratio vs national: 5.9x | Niveau: TRÈS DANGEREUX (>3x)
+
+4. Autre | Nuit sans éclairage | Route Départementale | Normale
+   Accidents: 69 | Taux mortalité: 12.838% | Ratio vs national: 4.77x | Niveau: TRÈS DANGEREUX (>3x)
+
+5. Temps couvert | Nuit sans éclairage | Route Départementale | Normale
+   Accidents: 319 | Taux mortalité: 12.672% | Ratio vs national: 4.71x | Niveau: TRÈS DANGEREUX (>3x)
+
+Taux de mortalité national de référence : 2.692%
+
+----------------------------------------
+CRITÈRE 2 : ZONES FRÉQUENTÉES VS DANGEREUSES
+----------------------------------------
+
+============================================================
+CRITÈRE 2 : ZONES FRÉQUENTÉES VS DANGEREUSES
+============================================================
+Exécution requête...
+108 départements analysés
+
+RÉPARTITION PAR TYPOLOGIE :
+  STANDARD : 58 départements
+  DANGEREUSE (Volume faible, gravité élevée) : 26 départements
+  FRÉQUENTÉE (Volume élevé, gravité normale) : 24 départements
+
+TOP 10 DÉPARTEMENTS PAR VOLUME D'ACCIDENTS :
+   1. Dépt 75 - 49992 accidents - Gravité:   0.3% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   2. Dépt 13 - 30318 accidents - Gravité:   1.4% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   3. Dépt 93 - 22789 accidents - Gravité:   0.5% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   4. Dépt 92 - 21170 accidents - Gravité:   0.5% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   5. Dépt 94 - 20399 accidents - Gravité:   0.5% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   6. Dépt 69 - 17690 accidents - Gravité:   1.1% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   7. Dépt 97 - 15453 accidents - Gravité:   3.7% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   8. Dépt 33 - 11818 accidents - Gravité:   2.2% - FRÉQUENTÉE (Volume élevé, gravité normale)
+   9. Dépt 91 - 11481 accidents - Gravité:   1.1% - FRÉQUENTÉE (Volume élevé, gravité normale)
+  10. Dépt 06 - 10998 accidents - Gravité:   1.6% - FRÉQUENTÉE (Volume élevé, gravité normale)
+
+----------------------------------------
+CRITÈRE 3 : ANALYSE PAR CATÉGORIE D'USAGERS
+----------------------------------------
+
+============================================================
+CRITÈRE 3 : ANALYSE PAR CATÉGORIE D'USAGERS
+============================================================
+Exécution requête analyse usagers...
+4 catégories d'usagers analysées
+
+TOP 10 CATÉGORIES D'USAGERS LES PLUS VULNÉRABLES :
+----------------------------------------------------------------------
+ 1. Moto >50cm3 et <=125cm3                 
+     Usagers: 92462 | Tués: 4222 | Taux mortalité:   4.6% | Ratio:  1.7x | À RISQUE (>1.5x)
+ 2. Cyclomoteur <50cm3                      
+     Usagers: 178511 | Tués: 4506 | Taux mortalité:   2.5% | Ratio:  0.9x | RISQUE NORMAL
+ 3. Voiture                                 
+     Usagers: 788465 | Tués: 19814 | Taux mortalité:   2.5% | Ratio:  0.9x | RISQUE NORMAL
+ 4. Moto >125cm3                            
+     Usagers:  1632 | Tués:  27 | Taux mortalité:   1.7% | Ratio:  0.6x | RISQUE NORMAL
+
+ANALYSE SPÉCIFIQUE DES USAGERS VULNÉRABLES :
+--------------------------------------------------
+  Cyclomoteur <50cm3:   2.5% de mortalité ( 0.9x moyenne)
+
+============================================================
+SYNTHÈSE DES ANALYSES - RÉSULTATS CLÉS
+============================================================
+
+CRITÈRE 1 - CONDITIONS DANGEREUSES :
+  20 combinaisons identifiées comme plus dangereuses que la moyenne
+  Condition la plus risquée :
+    Météo: Normale
+    Luminosité: Nuit sans éclairage
+    Route: Route Départementale
+    Surface: Autre
+    Taux mortalité: 16.875% (x6.27 vs national)
+
+CRITÈRE 2 - TYPOLOGIE DES ZONES :
+  STANDARD : 58 départements
+  DANGEREUSE (Volume faible, gravité élevée) : 26 départements
+  FRÉQUENTÉE (Volume élevé, gravité normale) : 24 départements
+
+CRITÈRE 3 - USAGERS VULNÉRABLES :
+  Catégorie la plus vulnérable : Moto >50cm3 et <=125cm3
+  Taux mortalité: 4.566% (x1.7 vs moyenne globale)
