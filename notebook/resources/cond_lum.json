@@ -1,0 +1,30 @@
+{
+  "conditions_luminosite": [
+    {
+      "code": "1",
+      "libelle": "Plein jour",
+      "est_nuit": false
+    },
+    {
+      "code": "2",
+      "libelle": "Crépuscule ou aube",
+      "est_nuit": false
+    },
+    {
+      "code": "3",
+      "libelle": "Nuit sans éclairage public",
+      "est_nuit": true
+    },
+    {
+      "code": "4",
+      "libelle": "Nuit avec éclairage public non allumé",
+      "est_nuit": true
+    },
+    {
+      "code": "5",
+      "libelle": "Nuit avec éclairage public allumé",
+      "est_nuit": true
+    }
+  ]
+}
+

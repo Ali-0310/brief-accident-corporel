@@ -16,25 +16,25 @@ CREATE TABLE accidents_gold.dim_route (
     -- CATÉGORIE DE ROUTE
     -- ================================
     categorie_route_code INTEGER CHECK (categorie_route_code BETWEEN 1 AND 9),
-    categorie_route_libelle VARCHAR(50),
+    categorie_route_libelle VARCHAR(120),
     
     -- ================================
     -- PROFIL
     -- ================================
     profil_route_code INTEGER CHECK (profil_route_code BETWEEN 1 AND 4),
-    profil_route_libelle VARCHAR(50),
+    profil_route_libelle VARCHAR(120),
     
     -- ================================
     -- TRACÉ
     -- ================================
     trace_plan_code INTEGER CHECK (trace_plan_code BETWEEN 1 AND 4),
-    trace_plan_libelle VARCHAR(50),
+    trace_plan_libelle VARCHAR(120),
     
     -- ================================
     -- ÉTAT SURFACE
     -- ================================
     etat_surface_code INTEGER CHECK (etat_surface_code BETWEEN 1 AND 9),
-    etat_surface_libelle VARCHAR(50),
+    etat_surface_libelle VARCHAR(120),
     
     -- ================================
     -- SCORE DE RISQUE COMPOSITE
