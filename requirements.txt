@@ -1,0 +1,11 @@
+SQLAlchemy
+psycopg2-binary
+dotenv
+jupyter
+requests
+pandas
+psutil
+holidays
+numpy
+pyarrow
+arrow

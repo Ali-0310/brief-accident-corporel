@@ -1,0 +1,202 @@
+{
+  "categories": [
+    {
+      "code": "01",
+      "libelle": "Bicyclette",
+      "type": "Deux-roues non motorisé",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "02",
+      "libelle": "Cyclomoteur <50 cm³",
+      "type": "Deux-roues léger",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "30",
+      "libelle": "Scooter <50 cm³",
+      "type": "Deux-roues léger",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "31",
+      "libelle": "Motocyclette >50 ≤125 cm³",
+      "type": "Deux-roues moyen",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "32",
+      "libelle": "Scooter >50 ≤125 cm³",
+      "type": "Deux-roues moyen",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "33",
+      "libelle": "Motocyclette >125 cm³",
+      "type": "Deux-roues lourd",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "34",
+      "libelle": "Scooter >125 cm³",
+      "type": "Deux-roues lourd",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "04",
+      "libelle": "Scooter immatriculé (réf. depuis 2006)",
+      "type": "Deux-roues motorisé",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "05",
+      "libelle": "Motocyclette (réf. depuis 2006)",
+      "type": "Deux-roues motorisé",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "06",
+      "libelle": "Side-car (réf. depuis 2006)",
+      "type": "Deux-roues motorisé",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "35",
+      "libelle": "Quad léger ≤50 cm³ (non carrossé)",
+      "type": "Quad / 2-roues assimilé",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "36",
+      "libelle": "Quad lourd >50 cm³ (non carrossé)",
+      "type": "Quad / 2-roues assimilé",
+      "niveau_protection": "Faible"
+    },
+    {
+      "code": "03",
+      "libelle": "Voiturette (quadricycle carrossé)",
+      "type": "Véhicule léger",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "07",
+      "libelle": "VL seul",
+      "type": "Véhicule léger",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "08",
+      "libelle": "VL + caravane",
+      "type": "Véhicule léger",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "09",
+      "libelle": "VL + remorque",
+      "type": "Véhicule léger",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "10",
+      "libelle": "VU seul 1.5–3.5T",
+      "type": "Véhicule utilitaire",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "11",
+      "libelle": "VU + caravane",
+      "type": "Véhicule utilitaire",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "12",
+      "libelle": "VU + remorque",
+      "type": "Véhicule utilitaire",
+      "niveau_protection": "Intermédiaire"
+    },
+    {
+      "code": "13",
+      "libelle": "PL seul 3.5–7.5T",
+      "type": "Poids lourd",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "14",
+      "libelle": "PL seul >7.5T",
+      "type": "Poids lourd",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "15",
+      "libelle": "PL >3.5T + remorque",
+      "type": "Poids lourd",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "16",
+      "libelle": "Tracteur routier seul",
+      "type": "Poids lourd",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "17",
+      "libelle": "Tracteur routier + semi-remorque",
+      "type": "Poids lourd",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "18",
+      "libelle": "Transport en commun (réf. depuis 2006)",
+      "type": "Transport en commun",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "37",
+      "libelle": "Autobus",
+      "type": "Transport en commun",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "38",
+      "libelle": "Autocar",
+      "type": "Transport en commun",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "19",
+      "libelle": "Tramway (réf. depuis 2006)",
+      "type": "Tramway / ferroviaire urbain",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "40",
+      "libelle": "Tramway",
+      "type": "Tramway / ferroviaire urbain",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "20",
+      "libelle": "Engin spécial",
+      "type": "Engin spécial",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "21",
+      "libelle": "Tracteur agricole",
+      "type": "Agricole",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "39",
+      "libelle": "Train",
+      "type": "Ferroviaire",
+      "niveau_protection": "Élevée"
+    },
+    {
+      "code": "99",
+      "libelle": "Autre véhicule",
+      "type": "Autre / indéterminé",
+      "niveau_protection": "Élevée"
+    }
+  ]
+}

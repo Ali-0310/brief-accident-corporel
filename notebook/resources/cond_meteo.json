@@ -1,0 +1,50 @@
+{
+  "conditions_meteo": [
+    {
+      "code": "1",
+      "libelle": "Normale",
+      "est_intemperie": false
+    },
+    {
+      "code": "2",
+      "libelle": "Pluie légère",
+      "est_intemperie": true
+    },
+    {
+      "code": "3",
+      "libelle": "Pluie forte",
+      "est_intemperie": true
+    },
+    {
+      "code": "4",
+      "libelle": "Neige - grêle",
+      "est_intemperie": true
+    },
+    {
+      "code": "5",
+      "libelle": "Brouillard - fumée",
+      "est_intemperie": true
+    },
+    {
+      "code": "6",
+      "libelle": "Vent fort - tempête",
+      "est_intemperie": true
+    },
+    {
+      "code": "7",
+      "libelle": "Temps éblouissant",
+      "est_intemperie": false
+    },
+    {
+      "code": "8",
+      "libelle": "Temps couvert",
+      "est_intemperie": false
+    },
+    {
+      "code": "9",
+      "libelle": "Autre",
+      "est_intemperie": false
+    }
+  ]
+}
+
