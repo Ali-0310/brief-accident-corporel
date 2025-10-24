@@ -81,9 +81,9 @@ Nous avons adopté une **architecture Medallion en 3 couches** inspirée des pra
                              - Métriques pré-calculées
 ```
 ### Schémas : 
-![Schema bronze](bronze.JPG "Schéma en bronze")
-![Schema Gold](silver.JPG "Schéma en Silver")
-![Schema Gold](Gold.JPG "Schéma en gold ")
+![Schema bronze](img/bronze.JPG "Schéma en bronze")
+![Schema Gold](img/silver.JPG "Schéma en Silver")
+![Schema Gold](img/Gold.JPG "Schéma en gold ")
 ### Principes de Modélisation
 
 | Couche | Modèle | Objectif | Usage |
@@ -320,7 +320,7 @@ Les zones avec beaucoup d'accidents sont-elles réellement plus dangereuses, ou 
 - **Zone DANGEREUSE** : Faible volume + Forte gravité  
 - **Zone FRÉQUENTÉE** : Fort volume + Faible gravité
 - **Zone SOUS SURVEILLANCE** : Faible volume + Faible gravité
-![Typologie des zones ](typo_des_zones.JPG "typologie des zone")
+![Typologie des zones ](img/typo_des_zones.JPG "typologie des zone")
 
 **Output** : Classification de tous les départements avec double classement (rang volume + rang gravité)
 
